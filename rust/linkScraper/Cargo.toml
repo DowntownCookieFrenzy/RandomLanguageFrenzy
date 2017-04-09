@@ -1,0 +1,10 @@
+[package]
+name = "randomCrawler"
+version = "0.1.0"
+authors = ["RagingGrim <armandconnor.duplooy@gmail.com>"]
+
+[dependencies]
+scraper = "*"
+
+[dependencies.curl]
+git = "https://github.com/alexcrichton/curl-rust"
